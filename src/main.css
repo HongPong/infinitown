@@ -1,0 +1,24 @@
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+    overflow: hidden;
+    border: 0;
+    margin: 0;
+}
+
+body canvas {
+    cursor: grab;
+    cursor: -webkit-grab;
+    cursor: -moz-grab;
+    cursor: -ms-grab;
+    transition: 300ms filter linear;
+}
+
+body.grabbing canvas {
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    cursor: -moz-grabbing;
+    cursor: -ms-grabbing;
+}
